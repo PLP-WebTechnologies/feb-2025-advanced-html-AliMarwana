@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>I</li>
+        <li>II</li>
+        <li>III</li>
+        <li>IV</li>
+        <li>V</li>
+        <li>VI</li>
+        <li>VII</li>
+    </ol>
+    <div>
+    <img style="width: 250px; height: 250px; margin-left: 28px;" src="https://images.pexels.com/photos/31295906/pexels-photo-31295906/free-photo-of-chic-minimalist-flat-lay-with-beauty-essentials.jpeg">
+    <label>Bath tools</label>
+</div>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Ali Marwana</td>
+        <td>Koira-Kano</td>
+        <td>86840363</td>
+        <td>alimarwana18@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Mphamed Ali</td>
+        <td>Katako</td>
+        <td>86840263</td>
+        <td>mohamedali18@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Issaka Ali</td>
+        <td>Gamkalle</td>
+        <td>86840362</td>
+        <td>issakaali18@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Moustapha Marwana</td>
+        <td>Bobiel</td>
+        <td>82840263</td>
+        <td>moustaphabobiel18@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Issa Amadou</td>
+        <td>Aéroport</td>
+        <td>86000102</td>
+        <td>issaamadou18@gmail.com</td>
+    </tr>
+</table>
+
+<form action="">
+    <label for="name">Name</label>
+    <input class="block" id="name" type="text" placeholder="Name" required>
+    <label for="email">Email</label>
+    <input class="block" pattern=".+@example\.com" type="email" name="email" id="email" placeholder="Email" required>
+    <label for="password">Password</label>
+    <input class="block" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" type="password" name="password" id="password" required>
+    <label for="date">Date</label>
+    <input class="block" type="date" name="date" id="date" required>
+    <label>
+        Age
+    </label>
+    <select class="block">
+        <option>18-25</option>
+        <option>26-30</option>
+        <option>30-34</option>
+        <option>35-40</option>
+    </select>
+    <label>
+        Sex
+    </label>
+    <label class="block" for="male">
+        Male
+    </label>
+    <input class="block" type="radio" name="sex" id="male">
+    <label for="female">
+        Female
+    </label>
+    <input class="block" type="radio" name="sex" id="female">
+    <label for="confirm">
+        Are you willing to abide by the rules and regulations?
+    </label>
+    <input type="checkbox" name="" id="confirm">
+
+</form>
+</body>
+
+</html>
